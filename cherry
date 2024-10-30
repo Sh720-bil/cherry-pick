@@ -1,0 +1,14 @@
+git checkout main
+git checkout -b develop
+git checkout feature
+git add changed_file.rb
+git commit -m 'Fix bugs in changed_file.rb'
+$ git log
+
+commit 0000011111222223333344444555556666677777
+Merge: 88888999999 aaaaabbbbbb
+Author: user@example.com
+Date:   Tue Aug 31 21:19:41 2021 +0000
+git checkout develop
+git cherry-pick SHA
+
